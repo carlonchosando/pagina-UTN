@@ -9,6 +9,11 @@ $(document).ready(function() {
     $('#iniciaContinua').click(function(){        
         video.play();
     });
+    $('#pausa').click(function(){
+        var video = $('video')[0]
+        video.pause();
+        video.currentTime = currentTime;
+    });    
     $('#para').click(function(){
         var video = $('video')[0]
         video.pause();
@@ -18,6 +23,6 @@ $(document).ready(function() {
         video.currentTime += 1.3;
     });
     $('#retrocede').click(function(){
-        video.currentTime -= 1.3;
+        video.currentTime -= 1.6;
     });
 });
