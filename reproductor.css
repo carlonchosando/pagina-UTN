@@ -14,24 +14,35 @@
     box-shadow: 10px 10px 10px #220b74;
 }
 #retrocede{
-    width:30px;
-    
-    
+    width:30px;    
 }
 #iniciaContinua{
-    width:30px;
-    
+    width:30px;   
 }
 #pausa{
-    width:30px;
-    
+    width:30px;   
 }
 #para{
-    width:30px;
-    
+    width:30px;    
 }
 #avanza{
-    width:30px;
+    width:30px;    
+}
+#contieneBarra{
+    margin-top:120px;
+    position: relative;
+    height:10px;
+    background-color:#19acd5;
+    border:1px solid #bfbfbf;
+    border-radius: 15px;
+    width: auto;
+    margin:0 auto;
+}
+  #barraProgreso{
+    height: 10px;
+    background-color:#4940d2;
+    width: 0px;
     
+  
 }
 

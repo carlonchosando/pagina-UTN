@@ -87,8 +87,7 @@ main {
   background-color: #fefefe;
 }
 
-#pic_slide {
-  margin-top: 40px;
+#pic_slide {  
   height: 590px;
   width: 950px;
   background-color: transparent;
@@ -96,6 +95,7 @@ main {
   margin-right: auto;
   margin-top: 20px;
 }
+
 
 video {
   width: 100%;
