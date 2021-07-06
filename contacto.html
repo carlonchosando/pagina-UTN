@@ -26,14 +26,29 @@
                 <div id="contacto">
                     <div id="form-box">
                         <form method="POST" action="#">
-                            <ol>
-                                <li id="form-name">Nombre:<input type="text" name="nombre" required></li>
-                                <li id="form-last">Apellido:<input type="text" name="apellido" required></li>
-                                <li id="form-email">e-mail: <input type="email" name="correo" required></li>
-                                <li id="form-textarea">Mensaje <textarea rows="10"></textarea></li>           
-                                <li id= "form-booton" ><input type="submit"></li>
-                            </ol>
-                        </form>
+                    <ol>
+                        <li id="form-name">
+                            <input type="text" id="nombre" placeholder="Tu nombre" required />
+                        </li>
+
+                        <li id="form-last">
+                            <input type="text" id="apellido" placeholder="Tu apellido" required />
+                        </li>
+
+                        <li id="form-email">
+                            <input type="email" id="email" placeholder="Tu correo electronico ó e-mail" required />
+                            
+                        </li>
+
+                        <li id="form-textarea">
+                            <textarea type="mensaje" id="mensaje" rows=" 8" placeholder="Aquí dejame tu mensaje "></textarea>
+                        </li>
+
+                        <li id="form-booton ">
+                            <button type="submit " value="validarForm ">Enviar mensaje</button>
+                        </li>
+                    </ol>
+                </form>
                     </div>
                 </div>
                 <div id="audio-box">
@@ -48,6 +63,7 @@
         <footer>	
             <p> ejercicio Unidad 2 - Modulo 2</p>
             <p>Realizado por Carlos D. Sandoval</p>	
-        </footer>                    
+        </footer> 
+        <script src="./JS/validaform.js "></script>                   
     </body>
 </html>
