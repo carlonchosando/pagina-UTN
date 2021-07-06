@@ -1,6 +1,12 @@
 $(document).ready(function() {
-    $('#iniciaContinua').click(function(){
-        var video = $('video')[0]
+    $('video').bind('timeupdate' , function(){
+        var tiempoActual = Math.floor(video.currentTime);
+        var tiempoTotal = Math.floor(video.duration);
+        $('#tiempoActual').html(tiempoActual);
+        $('#tiempoTotal').html(tiempoTotal);
+    });
+    var video = $('video')[0]
+    $('#iniciaContinua').click(function(){        
         video.play();
     });
     $('#para').click(function(){
@@ -9,6 +15,9 @@ $(document).ready(function() {
         video.currentTime = 0;
     });
     $('#avanza').click(function(){
-        video.currentTime = video.currentTime + 1.3;
+        video.currentTime += 1.3;
+    });
+    $('#retrocede').click(function(){
+        video.currentTime -= 1.3;
     });
 });

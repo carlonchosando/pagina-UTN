@@ -3,9 +3,9 @@
 }
 
 #losControles{
-    margin-top: 15px;
+    margin-top: 12px;
     display:flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap;    
     justify-content: space-around ;
     width: auto;;
     height: 30px;
