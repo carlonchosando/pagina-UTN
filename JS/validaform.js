@@ -1,13 +1,12 @@
 const nombre = document.getElementById('nombre');
 const apellido = document.getElementById("apellido");
 const email = document.getElementById("email");
-const mensaje = document.getElementById("mensaje");
 
 function validarIngreso() {
     nombre.addEventListener("input", validaNombre)
     apellido.addEventListener("input", validaApellido)
     email.addEventListener("input", validaEmail)
-    mensaje.addEventListener("input", validaMensaje)
+    
 
     validaNombre();
     validaApellido();
@@ -38,7 +37,7 @@ function validaApellido() {
 
 function validaEmail() {
     if (email.value.trim() == "") {
-        email.setCustomValidity("ingresa tu correo electónico más utilizado ")
+        email.setCustomValidity("ingresa tu correo electónico más utilizado")
         email.style.backgroundColor = "#f2b183"
     } else {
         email.setCustomValidity("")
@@ -47,13 +46,5 @@ function validaEmail() {
     }
 
 }
-function validaMensaje() {
-    if (mensaje.value.trim() == "") {
-        mensaje.setCustomValidity("ingresa tu correo electónico más utilizado ")
-        mensaje.style.backgroundColor = "#f2b183"
-    } else {
-        mensaje.setCustomValidity("")
-        mensaje.style.backgroundColor = "#467cf2"
-    }
-}
+
 window.addEventListener("load", validarIngreso);
