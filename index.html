@@ -8,6 +8,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="./estylos.css" />
+	<link rel="stylesheet" type="text/css" href="./reproductor.css" />
+	<script src="./JS/jquery-3.6.0.min.js"></script>
   </head>
 
   <body id="dark_claro">
@@ -39,10 +41,16 @@
 
       <div id="pic_slide">
 		<div id="reproductorPersonalizado"> 
-        	<video autoplay loop preload>
+        	<video poster="./imagenes/video-pasta.png" >
           		<source src="./videos/PastaCrema.mp4" type="video/mp4" />
           		Your browser does not support HTML5 video.
         	</video>
+			<div id ="losControles" >
+				<img id="retrocede" src="./imagenes/flecha-hacia-la-izquierda.png" alt="Retroceso"/>
+				<img id="iniciaContinua" src="./imagenes/jugar(1).png" alt="Play/pausa"/>
+				<img id="para" src="./imagenes/pausa.png" alt="para"/>
+				<img id="continua" src="./imagenes/flecha-derecha.png" alt="continua"/>
+			</div>
 		</div> 
       </div>
 

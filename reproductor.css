@@ -1,0 +1,33 @@
+#reproductorPersonalizado{
+    margin-bottom: 10px;
+}
+
+#losControles{
+    margin-top: 15px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around ;
+    width: auto;;
+    height: 30px;
+    border: 1px solid #bfbfbf;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px #220b74;
+}
+#retrocede{
+    width:30px;
+    
+    
+}
+#iniciaContinua{
+    width:30px;
+    
+}
+#para{
+    width:30px;
+    
+}
+#continua{
+    width:30px;
+    
+}
+

@@ -89,8 +89,8 @@ main {
 
 #pic_slide {
   margin-top: 40px;
-  height: 539px;
-  width: 958px;
+  height: 590px;
+  width: 950px;
   background-color: transparent;
   margin-left: auto;
   margin-right: auto;
@@ -106,7 +106,7 @@ video {
 }
 
 #cont_targ {
-  margin-top: 20px;
+  margin-top:15px;
   margin-left: auto;
   margin-right: auto;
   height: 350px;
@@ -440,6 +440,7 @@ p {
     height: 326px;    
   }
   #cont_targ {
+    margin-top: 66px;
     height: 235px;    
   }
   #tar_1 {
