@@ -286,6 +286,7 @@ p {
 #services-page {
   margin-top: 15px;
   width: 960px;
+    
   height: auto;  
   border-radius: 10px 10px 10px 10px;
   border: 1.5px solid #ffffff;
