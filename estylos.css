@@ -309,6 +309,16 @@ p {
   font-weight: bold;
   text-shadow: 1px 2px 1px #0000df;
 }
+#boton{
+  background-color: #4940d2;
+  text-decoration: none;
+  color: aliceblue;
+  text-align: center;
+  border: 1px solid #bfbfbf;
+  border-radius: 20px;
+  border-right: 2px solid rgb(11, 0, 106);
+  box-shadow: 10px 10px 10px #220b74;
+}
 
 #cajita{
   width:auto;
