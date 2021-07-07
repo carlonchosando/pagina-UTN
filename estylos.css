@@ -292,7 +292,7 @@ p {
   box-shadow: 10px 10px 10px #220b74;
   background: -moz-linear-gradient(top, #0180a3, #1d168a);
   background: -webkit-gradient(linear, 0 0, 0 100%, from(#0180a3), to(#1d168a));
-  text-align: center;
+  
   color:aliceblue;
 }
 #servicios-foot {
@@ -302,13 +302,14 @@ p {
 }
 
 #recetario{
-  text-align: center;
+  text-align:center;
   margin-left: 20px;
   font-size: 20px;
   font-style: italic;  
   font-weight: bold;
   text-shadow: 1px 2px 1px #0000df;
 }
+
 #boton{
   background-color: #4940d2;
   text-decoration: none;
@@ -319,7 +320,7 @@ p {
   border-right: 2px solid rgb(11, 0, 106);
   box-shadow: 10px 10px 10px #220b74;
 }
-
+/*
 #cajita{
   width:auto;
   height:auto;
@@ -342,13 +343,15 @@ p {
   text-align: center; 
   text-shadow: 2px 2px 3px #0400f9;
 }
-
+*/
 .recet{
-  text-align: center;
-  font-size: 30px;
+  
+  font-size: 14px;
   text-shadow: 2px 2px 3px #0400f9;
 }
-
+.lista-ingre{
+  list-style: none;
+}
 /* -----termino Servicios--->>>>>Comienza Página GALERIA--*/
 #galeria-cuerpo {
   margin-top: 30px;
