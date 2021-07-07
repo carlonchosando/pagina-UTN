@@ -1,32 +1,41 @@
-.recetas-contenedor{
-    margin:0 auto;
-    padding: 0;
-   
+.contieneArticulos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    
 }
-.contieneArticulos{
-    margin: 0;
+h3, h4, h5 {
+    text-align: center;
+}
+p{
+    padding: 10px
 }
 .recetarios{
-    background-color:rgb(148, 202, 216);
-    margin-bottom: 2em;
+    background-color:rgb(90, 74, 235);
+    margin-bottom: 10px;
     font-size:95%;
-    width: 33%;
-    float; left;
+    width: 49%;
+    border-radius: 20px;
+    
 }
+
 .imagenes-recet{
-    margin: 0;
+    margin: 5px;
+    border-radius: 20px;
 }
+
 img{
     display: block;
     border: 0;
     width: 100%;
     height:auto;
+    border-radius: 20px;
 }
-.recet{
-  
-    font-size: 14px;
-    text-shadow: 2px 2px 3px #0400f9;
-  }
-  .lista-ingre{
+
+.recet{    
+    
+}
+
+.lista-ingre{
     list-style: none;
-  }
+}
