@@ -3,6 +3,9 @@
     padding: 0;
    
 }
+.contieneArticulos{
+    margin: 0;
+}
 .recetarios{
     background-color:rgb(148, 202, 216);
     margin-bottom: 2em;

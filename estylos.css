@@ -286,7 +286,6 @@ p {
 #services-page {
   margin-top: 15px;
   width: 960px;
-
   height: auto;  
   border-radius: 10px 10px 10px 10px;
   border: 1.5px solid #ffffff;
@@ -502,11 +501,11 @@ p {
 
 
   #services-cuerpo {/*_____________COMIENZA PÁGINA SERVICIOS*/
+    width: auto;
     height: auto;
   }
   #services-page {
-    height: auto; 
-    margin: 20px 20px 30px 20px;  
+    height: auto;     
   }
   /*------------------------tERMINA PÁGINA sERVICIOS----*/
 
