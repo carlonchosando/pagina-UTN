@@ -286,7 +286,7 @@ p {
 #services-page {
   margin-top: 15px;
   width: 960px;
-    
+
   height: auto;  
   border-radius: 10px 10px 10px 10px;
   border: 1.5px solid #ffffff;
@@ -345,14 +345,7 @@ p {
   text-shadow: 2px 2px 3px #0400f9;
 }
 */
-.recet{
-  
-  font-size: 14px;
-  text-shadow: 2px 2px 3px #0400f9;
-}
-.lista-ingre{
-  list-style: none;
-}
+
 /* -----termino Servicios--->>>>>Comienza Página GALERIA--*/
 #galeria-cuerpo {
   margin-top: 30px;

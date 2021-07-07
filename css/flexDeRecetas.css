@@ -1,4 +1,28 @@
-.recet{
+.recetas-contenedor{
     margin:0 auto;
-    padding 0 1 em;
+    padding: 0;
+   
 }
+.recetarios{
+    background-color:rgb(148, 202, 216);
+    margin-bottom: 2em;
+    font-size:95%;
+    width: 33%;
+}
+.imagenes-recet{
+    margin: 0;
+}
+img{
+    display: block;
+    border: 0;
+    width: 100%;
+    height:auto;
+}
+.recet{
+  
+    font-size: 14px;
+    text-shadow: 2px 2px 3px #0400f9;
+  }
+  .lista-ingre{
+    list-style: none;
+  }
