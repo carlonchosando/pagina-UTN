@@ -32,7 +32,7 @@ img{
     height:auto;
     border-radius: 20px;    
 }
-.recetarios:hover{
+.recetarios:hover, img:hover{
     transition: all;
     transform: scale(1.7);
     transition-duration: 02s;
