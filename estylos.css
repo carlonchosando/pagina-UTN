@@ -82,14 +82,17 @@ ul li a:hover {
   background-color: rgb(80, 118, 152);
 }
 
-main {
+main { 
   height: auto;
   background-color: #fefefe;
+  
 }
 
+
 #pic_slide {  
-  height: 590px;
-  width: 950px;
+  margin-top: 40px;
+  height: 539px;
+  width: 958px;
   background-color: transparent;
   margin-left: auto;
   margin-right: auto;
@@ -106,12 +109,13 @@ video {
 }
 
 #cont_targ {
-  margin-top:15px;
+  margin-top:20px;
   margin-left: auto;
   margin-right: auto;
   height: 350px;
   width: 960px;
   background-color: transparent;
+  
 }
 #tar_1 {
   margin-top: 5px;
@@ -129,6 +133,7 @@ video {
   border-radius: 10px 10px 10px;
   
 }
+
 #tar_2 {
   margin-top: 5px;
   margin-right: 20px;
@@ -159,7 +164,7 @@ video {
   padding-top: 160px;
   color:#4059e6;
   text-shadow: #000000 2px 2px 2px;
-  font-size:26px
+  font-size:26px;
 } 
 
 #how_this {
@@ -195,7 +200,7 @@ footer {
   background-color: #000000;
   text-align: center;
   color: #9ec1e3;
-  border-radius: 10px 10px 10px;
+  border-radius: 10px 10px 10px; 
 }
 /* Aquí concluye página INICIO,---=>>---y abajo comienza Página CONTACTO*/
 #form-box {
@@ -225,7 +230,7 @@ footer {
   width: 960px;
   height: 400px;
   margin-top: 10px;
-  float: left;
+  float:left;
 }
 
 #main-contacto {
@@ -448,7 +453,7 @@ p {
     height: 326px;    
   }
   #cont_targ {
-    margin-top: 66px;
+    /*margin-top: 66px;*/
     height: 235px;    
   }
   #tar_1 {
@@ -503,11 +508,12 @@ p {
 
 
   #services-cuerpo {/*_____________COMIENZA PÁGINA SERVICIOS*/
-    width: auto;
+    
     height: auto;
   }
   #services-page {
-    height: auto;     
+    height: auto; 
+    margin: 20px 20px 30px 20px;    
   }
   /*------------------------tERMINA PÁGINA sERVICIOS----*/
 

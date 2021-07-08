@@ -4,7 +4,6 @@
     <link rel="shortcut icon" href="./imagenes/favicon.png" />
     <title>Portada</title>
     <meta charset="utf-8" />
-
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="./estylos.css" />
@@ -13,7 +12,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   </head>
 
-  <body id="dark_claro">
+  <body id ="dark_claro">
       <noscript>
         <p>Bienvenido a Mi Sitio</p>
         <p>
@@ -38,41 +37,46 @@
 
     <main id="setdc">
       <div id="pic_slide">
-		  <div id="reproductorPersonalizado"> 
-        <video>
-          	<source src="./videos/PastaCrema.mp4" type="video/mp4" />
-          	Your browser does not support HTML5 video.				    
-        </video>
-        <div id ="losControles" >
-          <img id="retrocede" src="./imagenes/flecha-hacia-la-izquierda.png" alt="Retroceso"/>
-          <img id="iniciaContinua" src="./imagenes/jugar(1).png" alt="Play"/>
-          <img id="pausa" src="./imagenes/pausa.png" alt="pausa"/>
-          <img id="para" src="./imagenes/detener.png" alt="para"/>
-          <img id="avanza" src="./imagenes/flecha-derecha.png" alt="continua"/>
-          <span id="tiempoActual">0:00</span>|<span id="tiempoTotal">0:00</span>				
-        </div>			
+		      <div id="reproductorPersonalizado"> 
+            <video>
+            	<source src="./videos/PastaCrema.mp4" type="video/mp4" />
+          	  Your browser does not support HTML5 video.				    
+            </video>
+          </div>  
+                <div id ="losControles" >
+                  <img id="retrocede" src="./imagenes/flecha-hacia-la-izquierda.png" alt="Retroceso"/>
+                  <img id="iniciaContinua" src="./imagenes/jugar(1).png" alt="Play"/>
+                  <img id="pausa" src="./imagenes/pausa.png" alt="pausa"/>
+                  <img id="para" src="./imagenes/detener.png" alt="para"/>
+                  <img id="avanza" src="./imagenes/flecha-derecha.png" alt="continua"/>
+                  <span id="tiempoActual">0:00</span>|<span id="tiempoTotal">0:00</span>				
+                </div>               		
 		  </div>
+      
       <div id="cont_targ">
-        <div id="tar_1">
-          <p id="text-card1">
-            Recetas de cocina con ingredientes naturalmente frescos
-          </p>
-        </div>
-        <div id="tar_2">
-          <p id="text-card2">Todas las recetas divididas por categorias</p>
-        </div>
-        <div id="tar_3">
-          <p id="text-card2">Carnes blancas y rojas, al horno o a la plancha</p>
-        </div>
-      </div>
-        <div id="how_this">
-          <h1 id="title">Tus recetas de cocina por categorias</h1>
-          <p id="paragraf1">Pastas, Platos Frios, Carnes, Postres</p>
-          <p id="paragraf2">Ingresa en recetario y descubri tu paladar</p>
-        </div>
+            <div id="tar_1">
+                <p id="text-card1">
+                  Recetas de cocina con ingredientes naturalmente frescos
+                </p>
+            </div>
+       
+            <div id="tar_2">
+             <p id="text-card2">Todas las recetas divididas por categorias</p>
+            </div>
+
+            <div id="tar_3">
+              <p id="text-card2">Carnes blancas y rojas, al horno o a la plancha</p>
+            </div>
+      </div> 
+            <div id="how_this">
+              <h1 id="title">Tus recetas de cocina por categorias</h1>
+              <p id="paragraf1">Pastas, Platos Frios, Carnes, Postres</p>
+              <p id="paragraf2">Ingresa en recetario y descubri tu paladar</p>
+            </div>
+       
     </main>
 
-    <footer>
+    <footer class="pieportada">
       <p>Modo dark-wite DOM - By Id's</p>
       <p>Archivo "oscuro.js | Reproductor personalizado</p>
     </footer>
