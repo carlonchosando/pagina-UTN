@@ -32,12 +32,45 @@ img{
     height:auto;
     border-radius: 20px;    
 }
-.recetarios:hover, img:hover{
+img:hover{
     transition: all;
-    transform: scale(1.7);
+    transform: scale(1.9);
     transition-duration: 02s;
 }
 
 .lista-ingre{
     list-style: none;
+}
+.lista-ingre:hover{
+    transition: all;
+    transform: scale(1.7);
+    transition-duration: 02s;
+    background-color:#220b74;
+    border-radius: 20px;
+}
+@media all and (min-width: 600px) and (max-width: 1023px){
+   
+    .recetarios{        
+        margin-bottom: 8px;
+        font-size:80%;
+        width: 49%;          
+    }   
+    img:hover{
+        transition: all;
+        transform: scale(1.9);
+        transition-duration: 02s;
+    }    
+    .lista-ingre{
+        list-style: none;
+    }  
+
+}
+@media all and (max-width: 599px){
+    .recetarios{        
+        margin-bottom: 8px;
+        font-size:80%;
+        width: 100%;
+                  
+    }   
+    
 }
