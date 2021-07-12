@@ -454,7 +454,8 @@ p {
   }
   #cont_targ {
     /*margin-top: 66px;*/
-    height: 235px;    
+    height: 235px;
+    margin-top: 58px;
   }
   #tar_1 {
     margin-right: 10px;
