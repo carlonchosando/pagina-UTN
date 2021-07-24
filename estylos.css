@@ -511,10 +511,11 @@ p {
   #services-cuerpo {/*_____________COMIENZA PÁGINA SERVICIOS*/
     
     height: auto;
+    whidth: auto;
   }
   #services-page {
     height: auto; 
-    margin: 0px 20px 30px 20px;    
+    width: auto;   
   }
   /*------------------------tERMINA PÁGINA sERVICIOS----*/
 
