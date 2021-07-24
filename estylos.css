@@ -514,9 +514,11 @@ p {
     whidth: auto;
   }
   #services-page {
-    height: auto; 
-       
+    height: auto;       
   }
+  #recetario{
+    margin-left: 0px;
+  }  
   /*------------------------tERMINA PÁGINA sERVICIOS----*/
 
 
