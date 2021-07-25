@@ -454,13 +454,13 @@ p {
   }
   #cont_targ {
     /*margin-top: 66px;*/
-<<<<<<< HEAD:css/estylos.css
+
     height: 235px; 
     margin-top: 58px;   
-=======
+
     height: 235px;
     margin-top: 58px;
->>>>>>> 79d212dac51b3860e9cc445cc698ecf9b2f4ceb0:estylos.css
+
   }
   #tar_1 {
     margin-right: 10px;
@@ -516,15 +516,15 @@ p {
   #services-cuerpo {/*_____________COMIENZA PÁGINA SERVICIOS*/
     
     height: auto;
-    whidth: auto;
+    
   }
   #services-page {
-<<<<<<< HEAD:css/estylos.css
+
     height: auto; 
       
-=======
+
     height: auto;       
->>>>>>> 79d212dac51b3860e9cc445cc698ecf9b2f4ceb0:estylos.css
+
   }
   #recetario{
     margin-left: 0px;
