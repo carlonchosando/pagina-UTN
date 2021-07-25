@@ -1,76 +1,72 @@
 .contieneArticulos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-between;
-    
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
-h3, h4, h5 {
-    text-align: center;
+h3,
+h4,
+h5 {
+  text-align: center;
 }
-p{
-    padding: 10px
+p {
+  padding: 10px;
 }
-.recetarios{
-    background-color:rgb(90, 74, 235);
-    margin-bottom: 2px;
-    font-size:95%;
-    width: 33%;
-    border-radius: 20px;
-    border: #fff 1px solid;
-    
-}
-
-.imagenes-recet{
-    margin: 5px;
-    border-radius: 20px;
+.recetarios {
+  background-color: rgb(90, 74, 235);
+  margin-bottom: 2px;
+  font-size: 95%;
+  width: 33%;
+  border-radius: 20px;
+  border: #fff 1px solid;
 }
 
-img{
-    display: block;
-    border: 0;
-    width: 100%;
-    height:auto;
-    border-radius: 20px;    
+.imagenes-recet {
+  margin: 5px;
+  border-radius: 20px;
 }
-img:hover{
+
+img {
+  display: block;
+  border: 0;
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+img:hover {
+  transition: all;
+  transform: scale(1.9);
+  transition-duration: 02s;
+}
+
+.lista-ingre {
+  list-style: none;
+}
+.lista-ingre:hover {
+  transition: all;
+  transform: scale(1.7);
+  transition-duration: 02s;
+  background-color: #220b74;
+  border-radius: 20px;
+}
+@media all and (min-width: 600px) and (max-width: 1023px) {
+  .recetarios {
+    margin-bottom: 8px;
+    font-size: 80%;
+    width: 49%;
+  }
+  img:hover {
     transition: all;
     transform: scale(1.9);
     transition-duration: 02s;
-}
-
-.lista-ingre{
+  }
+  .lista-ingre {
     list-style: none;
+  }
 }
-.lista-ingre:hover{
-    transition: all;
-    transform: scale(1.7);
-    transition-duration: 02s;
-    background-color:#220b74;
-    border-radius: 20px;
-}
-@media all and (min-width: 600px) and (max-width: 1023px){
-   
-    .recetarios{        
-        margin-bottom: 8px;
-        font-size:80%;
-        width: 49%;          
-    }   
-    img:hover{
-        transition: all;
-        transform: scale(1.9);
-        transition-duration: 02s;
-    }    
-    .lista-ingre{
-        list-style: none;
-    }  
-
-}
-@media all and (max-width: 599px){
-    .recetarios{        
-        margin-bottom: 8px;
-        font-size:80%;
-        width: 100%;
-                  
-    }   
-    
+@media all and (max-width: 599px) {
+  .recetarios {
+    margin-bottom: 8px;
+    font-size: 80%;
+    width: 100%;
+  }
 }

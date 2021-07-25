@@ -9,7 +9,7 @@ footer {
 }
 header {
   height: 62px;
-  background: url("./imagenes/knife-1088529_640.png") 750px 186px;
+  background: url("../imagenes/knife-1088529_640.png") 750px 186px;
   /*position: fixed;*/
   top: 0;
   width: 960px;
@@ -26,7 +26,7 @@ header {
   height: 60px;
   width: 60px;
   float: left;
-  background: url("./imagenes/logo.jpg") 250px 105px;
+  background: url("../imagenes/logo.jpg") 250px 105px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -125,7 +125,7 @@ video {
   height: 300px;
   width: 270px;
   float: left;
-  background: url("./imagenes/food-1932466_640.jpg") 300px 350px;
+  background: url("../imagenes/food-1932466_640.jpg") 300px 350px;
   padding: 10px 10px 20px 10px;
   border: 1px solid #bfbfbf;
   background-color: transparent;
@@ -139,7 +139,7 @@ video {
   margin-right: 20px;
   height: 300px;
   width: 270px;
-  background: url("./imagenes/salad-2068220_640.jpg") 350px 350px;
+  background: url("../imagenes/salad-2068220_640.jpg") 350px 350px;
   float: left;
   padding: 10px 10px 20px 10px;
   border: 1px solid #bfbfbf;
@@ -152,7 +152,7 @@ video {
   margin-top: 5px;
   height: 300px;
   width: 270px;
-  background: url("./imagenes/salmon-518032_640.jpg") 350px 350px;
+  background: url("../imagenes/salmon-518032_640.jpg") 350px 350px;
   float: left;
   padding: 10px 10px 20px 10px;
   border: 1px solid #bfbfbf;
@@ -364,7 +364,7 @@ p {
   margin-top: 20px;
   margin-left: 20px;
   float: left;
-  background: url("./imagenes/empanadas.jpg");
+  background: url("../imagenes/empanadas.jpg");
   background-position: center;
   width: 430px;
   height: 400px;
@@ -381,7 +381,7 @@ p {
   margin-top: 20px;
   margin-right: 20px;
   float: right;
-  background: url("./imagenes/salmon-518032_640.jpg");
+  background: url("../imagenes/salmon-518032_640.jpg");
   background-position: center;
   width: 430px;
   height: 400px;
@@ -399,7 +399,7 @@ p {
   width: 420px;
   height: 400px;
   float: left;
-  background-image: url("./imagenes/asparagus-2169305_640.jpg"); 
+  background-image: url("../imagenes/asparagus-2169305_640.jpg"); 
   -webkit-transform: scale(100%) skew(10deg) translate(0px) rotate(10deg);
   -moz-transform: scale(100%) skew(10deg) translate(0px) rotate(10deg);
   border-radius: 10px;
@@ -414,7 +414,7 @@ p {
   width: 420px;
   height: 400px;
   float: right;
-  background-image: url("./imagenes/pizza.jpg");
+  background-image: url("../imagenes/pizza.jpg");
   -webkit-transform: scale(100%) skew(10deg) translate(0px) rotate(10deg);
   -moz-transform: scale(100%) skew(10deg) translate(0px) rotate(10deg);
   border-radius: 10px;
@@ -514,7 +514,7 @@ p {
   }
   #services-page {
     height: auto; 
-    margin: 20px 20px 30px 20px;    
+      
   }
   /*------------------------tERMINA PÁGINA sERVICIOS----*/
 
@@ -561,7 +561,7 @@ footer {
 }
 header {
   height: auto; 
-  background: url("./imagenes/favicon.jpg"); 
+  background: url("../imagenes/favicon.jpg"); 
   position:relative;
 }
 
