@@ -35,7 +35,7 @@ img {
 img:hover {
   transition: all;
   transform: scale(1.9);
-  transition-duration: 02s;
+  transition-duration: 05s;
 }
 
 .lista-ingre {
