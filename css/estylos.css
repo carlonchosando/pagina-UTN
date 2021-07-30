@@ -175,8 +175,7 @@ video {
   width: 930px;
   height: 190px;
   background: lightblue;
-  background-clip: padding-box;
-  
+  background-clip: padding-box;  
   background-size: 200px 200px;
   background-position-x: right;
   background-repeat: no-repeat;
@@ -625,8 +624,10 @@ video, #pic_slide, #how_this, #main-contacto, #contacto,
 } 
 
 #how_this {
-  margin-top: 0px; 
-  padding: 0px;   
+  margin-top: 20px; 
+  padding: 0px;
+  margin-left: auto;
+  margin-right: auto;   
   
 }
 #how_this h1, #how_this p {   

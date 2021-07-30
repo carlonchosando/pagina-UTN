@@ -1,0 +1,100 @@
+.contPan{
+  width: 95%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  animation: pulse 5s infinite;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px #4940d2;
+  border: 1px solid #bfbfbf;
+}
+@keyframes pulse {
+    0% {
+      background-color: #4a40d2;
+    }
+    
+    50%{
+        background-color: #ffffff00;
+    }
+    
+    100% {
+        background-color: #4a40d2;
+    }
+}
+#panp{
+    text-align: center;
+    color: #4d0000;
+    font-weight: bold;
+    
+     
+}
+#pan{    
+    margin-left: 400px;;    
+    animation:      
+    nudge 8s linear infinite alternate;
+}
+
+  
+  @keyframes nudge {
+    0%, 100% {
+      transform: translate(0, 0);
+    }
+    
+    50% {
+      transform: translate(300px, 0);
+    }
+    
+    80% {
+      transform: translate(-300px, 0);
+    }
+  }
+  
+
+  @media all and (min-width: 600px) and (max-width: 1023px) {
+
+    #pan{    
+        margin-left: 230px;;    
+        animation:      
+        nudge 8s linear infinite alternate;
+    }
+    
+      
+      @keyframes nudge {
+        0%, 100% {
+          transform: translate(0, 0);
+        }
+        
+        50% {
+          transform: translate(230px, 0);
+        }
+        
+        80% {
+          transform: translate(-230px, 0);
+        }
+      }
+  }
+
+  @media all and (max-width: 599px) {
+    #pan{    
+        margin-left: 30px;;    
+       
+    }
+    
+      
+      @keyframes nudge {
+        0%, 100% {
+          transform: translate(0, 0);
+        }
+        
+        50% {
+          transform: translate(400px, 0);
+        }
+        
+        80% {
+          transform: translate(0px, 0);
+        }
+      }
+
+  }
+
+ 
