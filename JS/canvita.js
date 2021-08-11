@@ -16,7 +16,7 @@ function animacion_con_canvas(){
   contexto.drawImage(svgPan, xposicion, yposicion);    
   if(xposicion > 400)
     xposicion = -50;
-    yposicion = 0;
+    yposicion = 10;
     
     xposicion = xposicion + velocidad;
     
