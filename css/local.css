@@ -33,13 +33,6 @@ header {
   box-shadow: 10px 10px 8px #220b74;
   border-radius: 10px;
 }
-#home {
-  width: 200px;
-  height: 50px;
-  border-radius: 10px;
-  box-shadow: 10px 10px 10px #220b74;
-}
-
 #nav-menu {
   width: 530px;
   height: 60px;
@@ -80,94 +73,313 @@ ul li a:hover {
   color: rgb(32, 7, 35);
   background-color: rgb(80, 118, 152);
 }
-    section{
-       font-family: calibri;
-             font-size: 20px; 
-             width: 960px;
-             height: autopx;
-             margin-top: 12px ;
-             margin-right: auto;
-            margin-left: auto;
-            background: -moz-linear-gradient(top, #0180a3, #1d168a);
-            background: -webkit-gradient(linear, 0 0, 0 100%, from(#0180a3), to(#1d168a));
-            border: 1px solid #bfbfbf;
+section{
+  font-family: calibri;
+  font-size: 20px; 
+  width: 960px;
+  height: autopx;
+  margin-top: 12px ;
+  margin-right: auto;
+  margin-left: auto;
+  background: -moz-linear-gradient(top, #0180a3, #1d168a);
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#0180a3), to(#1d168a));
+  border: 1px solid #bfbfbf;
   border-radius: 10px;
-    }
-    h1{
-      text-align: center;
-      padding: 10px;
-    }
-    footer {
-      height: 70px;
-      background-color: #000000;
-      text-align: center;
-      color: #9ec1e3;
-      border-radius: 10px 10px 10px; 
-    }
-    #title{
-      text-align: center;
-      border: double;
-      border-style: groove;
+}
+h1{
+  text-align: center;
+  padding: 10px;
+}
+footer {
+  height: 70px;
+  background-color: #000000;
+  text-align: center;
+  color: #9ec1e3;
+  border-radius: 10px 10px 10px; 
+}
+#title{
+  text-align: center;
+  border: double;
+  border-style: groove;
+}
+#mayor{
+margin: auto;
+  padding: 20px;
+  text-align: left;
+  width: 60%;
+}
+#id{
+  display: block;
+  background-position: center;
+  text-align: center;
+  margin: auto;
+  width: 500px;
+  font-size: 25px;
+  height: 20px;
+  padding: 5px;
+}
+#fecha{
+  display: block;
+  margin: auto;
+  background-position: center;
+  width: 509px;
+  margin-top: 5px;
+  font-size: 20px;
+  padding: px;
+}
+#aporte{
+  display: block;
+  margin: auto;
+  background-position: center;
+  width: 508px;
+  font-size: 20px;
+  margin-top: 5px;
+}
+#conformidad{
+  margin-left: 31px;
+  padding: 12px;
+  margin-top: 5px;
+  width: 400px;
+  background-position: center;
+}
+#aceptar{
+  background-color: white;
+  padding: 7px;
+  text-decoration-line: none;
+  background-position: center;
+  margin-left: 468px;
+}
+#Datos{
+  background-color:white ;
+  height: 450px;
+  border-style: groove;
+}
+#borrar{
+  text-decoration-line: none;
+  border-style: double;
+  border-color: black;
+  float: right;
+  margin-right: -100px;
+}
+@media all and (min-width: 600px) and (max-width: 1023px){
 
-    }
-    #mayor{
-       margin: auto;
-       padding: 20px;
-       text-align: left;
-       width: 60%;
-    }
-    #id{
-      display: block;
-      background-position: center;
-      text-align: center;
-      margin: auto;
-      width: 500px;
-      font-size: 25px;
-      height: 20px;
-      padding: 5px;
-    }
-    #fecha{
-      display: block;
-      margin: auto;
-      background-position: center;
-      width: 509px;
-      margin-top: 5px;
-      font-size: 20px;
-      padding: px;
-    }
-    #aporte{
-      display: block;
-      margin: auto;
-      background-position: center;
-      width: 508px;
-      font-size: 20px;
-      margin-top: 5px;
-    }
-    #conformidad{
-      margin-left: 31px;
-      padding: 12px;
-      margin-top: 5px;
-      width: 400px;
-      background-position: center;
-    }
-    #aceptar{
-      background-color: white;
-      padding: 7px;
-      text-decoration-line: none;
-      background-position: center;
-      margin-left: 468px;
-    }
-    #Datos{
-      background-color:white ;
-      height: 450px;
-      border-style: groove;
-
-    }
-    #borrar{
-      text-decoration-line: none;
-      border-style: double;
-      border-color: black;
-      float: right;
-      margin-right: -100px;
-    }
+  body,
+  header,
+  main,
+  footer{
+    width: 580px; 
+    margin-left: auto;
+    margin-right: auto;    
+  }
+  header {
+    height: 62px;
+    background: url("../imagenes/knife-1088529_640.png") 750px 186px;
+    /*position: fixed;*/
+    top: 0;
+    width: 598px;
+    position: sticky;
+    border: 1px solid #bfbfbf;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #220b74;
+    z-index: 10;
+  }
+  #Logo {
+    margin-top: 4px;   
+    height: 50px;
+    width: 50px;
+    float: left;    
+  }  
+  #nav-menu {
+    width:510px;    
+  }
   
+  
+  
+  ul li a {
+    margin-left: 10px;    
+    width: 83px;  
+  }  
+  section{     
+    width: 580px;
+    height: auto;    
+  }  
+  #mayor{
+  margin: auto;
+    padding:12px;    
+    width: auto 
+  }
+  #id{
+    display: block;
+    background-position: center;
+    text-align: center;
+    margin: auto;
+    width: 500px;
+    font-size: 25px;
+    height: 20px;
+    padding: 5px;
+  }
+  #fecha{
+    display: block;
+    margin: auto;
+    background-position: center;
+    width: 509px;
+    margin-top: 5px;
+    font-size: 20px;
+    padding: px;
+  }
+  #aporte{    
+    margin: auto;    
+  }
+  #conformidad{
+    margin-left: 21px;
+    padding: 12px;
+    margin-top: 5px;
+    width: 515px;
+    background-position: center;
+  }
+  #aceptar{
+    background-color: white;
+    padding: 7px;
+    text-decoration-line: none;
+    background-position: center;
+    margin-left: 8px;
+  }
+  #Datos{
+    background-color:white ;
+    height: 450px;
+    border-style: groove;
+  }
+  #borrar{    
+    border-color: rgb(255, 255, 255);
+    float: right;
+    margin-right:25px;
+  }
+}
+@media all and (max-width: 599px) {
+  head,
+  header,
+  body
+  section,
+  footer {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  header {
+    height: 315px; 
+    background: url("../imagenes/favicon.jpg"); 
+    position:relative;
+  }
+  
+  
+  #Logo { 
+    height: 60px;/*esto es una imagen inyectada desde CSS*/  
+    text-align: center;
+    width: 100%;
+    float: none;    
+  }
+   
+  #nav-menu {         
+    margin-top: 5px;
+    margin-bottom: 1px;
+    padding-right: 0px;
+    text-align: center;
+    float: none;  
+  }
+  ul li {
+    display: block;
+  }
+  ul li a {
+    margin-left: 0px;
+    display: block;
+    width: 100%;
+    
+  }  
+  section{
+    font-family: calibri;
+    font-size: 20px; 
+    width: 100%;
+    height: auto;
+    margin-top: 12px ;
+    margin-right: 0px;
+    margin-left: 0px;
+    
+  }
+  h1{
+    text-align: center;
+    padding: 10px;
+  }
+  footer {
+    height: 70px;
+    background-color: #000000;
+    text-align: center;
+    color: #9ec1e3;
+    border-radius: 10px 10px 10px; 
+  }
+  #title{
+    
+    border: double;
+    border-style: groove;
+  }
+  #mayor{
+    margin-top: 0;
+    padding: 0px;
+    text-align: left;
+    width: auto;
+  }
+  #{
+    display: block;
+    background-position: center;
+    text-align: center;
+    margin: auto;
+    width: 500px;
+    font-size: 25px;
+    height: 20px;
+    padding: 5px;
+  }
+  #fecha{
+    display: block;
+    margin: auto;
+    background-position: center;
+    width: 509px;
+    margin-top: 5px;
+    font-size: 20px;
+    padding: px;
+  }
+  #aporte{
+    display: block;
+    margin: auto;
+    background-position: center;
+    width: 508px;
+    font-size: 20px;
+    margin-top: 5px;
+  }
+  #conformidad{
+    margin-left: 31px;
+    padding: 12px;
+    margin-top: 5px;
+    width: 400px;
+    background-position: center;
+  }
+  #aceptar{
+    background-color: white;
+    padding: 7px;
+    text-decoration-line: none;
+    background-position: center;
+    margin-left: 468px;
+  }
+  #Datos{
+    background-color:white ;
+    height: 450px;
+    border-style: groove;
+  }
+  #borrar{
+    text-decoration-line: none;
+    border-style: double;
+    border-color: black;
+    float: right;
+    margin-right: -100px;
+  }
+
+
+}  
