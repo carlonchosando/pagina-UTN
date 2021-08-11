@@ -42,12 +42,12 @@ header {
 }
 
 #nav-menu {
-  width: 430px;
+  width: 530px;
   height: 60px;
   padding-right: 10px;
   background-color: #19acd5;
   float: right;
-  border: 1px solid #bfbfbf;
+  border: 2px solid #bfbfbf;
   border-radius: 10px;
   box-shadow: 10px 10px 10px #220b74;
 }
@@ -63,7 +63,7 @@ ul li {
 ul li a {
   margin-left: 10px;
   display: block;
-  width: 90px;
+  width: 88px;
   height: 45px;
   margin-top: 3px;
   background-color: #4940d2;

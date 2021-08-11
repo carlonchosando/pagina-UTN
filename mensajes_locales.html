@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tablero</title>
+  <link rel="stylesheet" type="text/css" href="./css/local.css"/>
+  <link rel="stylesheet" type="text/css" href="./css/vanvita.css"/>
+  
+</head>  
+<body>
+  <header>
+    <div id="Logo"></div>
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="./index.html">Portada</a></li>
+                <li><a href="./galeria.html">Galeria</a></li>
+                <li><a href="./recetas.html">Recetas</a></li>
+                <li><a href="./mensajes_locales.html">tablero</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+                
+
+            </ul>
+        </nav>
+</header>
+  <section>
+    <div id="mayor">
+      <article>
+  	<h1>Conformidad</h1>
+  	<p id="title">Puedes aportar con el blog y dejarnos cuan satisifecho estas</p>
+  	<div id="contenedor">
+  		<form>
+  			<input type="number" id="id" placeholder ="Codigo de receta">
+  			<input type="date" id="fecha" placeholder="Fecha en la que te encuentras">
+  			<textarea type="textarea" id="aporte" placeholder="Dejanos aqui tu reseña"></textarea>
+  				<select id="conformidad">
+            <option>Nivel de conformidad con las recetas</option>
+  					<option>Muy satisfecho</option>
+  					<option>Satisfecho</option>
+  					<option>Insatisfecho</option>
+  				</select>
+  				<p><a href="##" id="aceptar" onclick="lista()">Aceptar</a></p>
+  		</form>
+  	</div>
+  <div id="Datos">
+  	<p><a href="##" id="borrar" onclick="borrar()">Eliminar</a></p>
+  </div>
+  </article>
+</div>
+  </section>
+  <canvas id="canva" width="450" height="100">
+    Tu navegador no soporta canvas !
+</canvas>
+  <footer class="pieportada">
+    <p>Pagina aplicación utilizando webstorage</p>
+    <p>Archivo  | </p>
+  </footer>
+  <script src="./js/canvita.js"></script>
+  <script src="./JS/tablero.js"></script>
+</body>
+</html>
