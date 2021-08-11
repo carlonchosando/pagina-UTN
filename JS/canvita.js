@@ -7,7 +7,7 @@ var velocidad = 2.69;
 
 
 function animacion_con_canvas(){ 
-  svgPan.src ="/imagenes/pancito.svg";
+  svgPan.src ="../imagenes/pancito.svg";
   svgPan.addEventListener('load', animar_imagen, false);
   function animar_imagen() {
   var animacion = requestAnimationFrame(animar_imagen);
