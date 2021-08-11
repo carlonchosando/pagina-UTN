@@ -1,0 +1,25 @@
+body{
+    padding: 0px;
+    margin: 0;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    
+
+
+
+#canva{
+    border:3px solid #ccc;
+    background-color: aqua;
+    display: block;
+    margin-top: 12px;
+    margin-left: auto;
+    margin-right: auto;
+   
+    
+}
+
+
+@media ( min-width:960) and (max-width: 1200px)  { }
