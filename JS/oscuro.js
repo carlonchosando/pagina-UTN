@@ -1,5 +1,5 @@
 
-/*
+
 var modo = confirm('¿Deseas ver el sitio en modo oscuro Gabriel ?');
 
 if (modo) {
@@ -24,4 +24,4 @@ if (modo) {
     var textfin = document.getElementById("paragraf2");
     textfin.style.color = "#040404";
 }
-*/
+

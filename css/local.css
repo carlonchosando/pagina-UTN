@@ -103,7 +103,7 @@ footer {
   border-style: groove;
 }
 #mayor{
-margin: auto;
+  margin: auto;
   padding: 20px;
   text-align: left;
   width: 60%;
@@ -161,6 +161,19 @@ margin: auto;
   float: right;
   margin-right: -100px;
 }
+#canva{
+  border:3px solid #ccc;
+  background-color: aqua;
+  display: block;
+  margin-top: 12px;
+  margin-left: auto;
+  margin-right: auto;
+ 
+  
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
 @media all and (min-width: 600px) and (max-width: 1023px){
 
   body,
@@ -191,10 +204,7 @@ margin: auto;
   }  
   #nav-menu {
     width:510px;    
-  }
-  
-  
-  
+  }  
   ul li a {
     margin-left: 10px;    
     width: 83px;  
@@ -254,34 +264,56 @@ margin: auto;
     float: right;
     margin-right:25px;
   }
+
 }
+#canva{
+  border:3px solid #ccc;
+  background-color: aqua;
+  display: block;
+  margin-top: 12px;
+  margin-left: auto;
+  margin-right: auto;
+ 
+  
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
 @media all and (max-width: 599px) {
-  head,
-  header,
-  body
-  section,
-  footer {
+  
+  
+  main,
+  footer,
+  section {
     width: 100%;
+    height: auto;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto ;
   }
-  header {
-    height: 315px; 
+  body {
+    width: auto;
+  }
+  #box-content{
+    width: 100%;
+    height: auto;
+  }
+  header{
+    width: auto;
+    height: auto; 
     background: url("../imagenes/favicon.jpg"); 
     position:relative;
   }
-  
-  
   #Logo { 
     height: 60px;/*esto es una imagen inyectada desde CSS*/  
     text-align: center;
-    width: 100%;
+    width: auto;
     float: none;    
   }
-   
-  #nav-menu {         
-    margin-top: 5px;
-    margin-bottom: 1px;
+ 
+  #nav-menu { 
+    width: auto;
+    height:auto;        
+    margin-top: 0px;
     padding-right: 0px;
     text-align: center;
     float: none;  
@@ -290,24 +322,20 @@ margin: auto;
     display: block;
   }
   ul li a {
-    margin-left: 0px;
-    display: block;
-    width: 100%;
-    
-  }  
+    margin: 0px;
+    display: block;    
+    width:auto;   
+  }
   section{
-    font-family: calibri;
-    font-size: 20px; 
-    width: 100%;
+    width: 100%; 
     height: auto;
     margin-top: 12px ;
-    margin-right: 0px;
-    margin-left: 0px;
-    
+    margin-right: 1px;
+    margin-left: 1px;   
   }
   h1{
     text-align: center;
-    padding: 10px;
+    padding: 0px;
   }
   footer {
     height: 70px;
@@ -317,60 +345,46 @@ margin: auto;
     border-radius: 10px 10px 10px; 
   }
   #title{
-    
+    text-align: center;
     border: double;
     border-style: groove;
   }
-  #mayor{
-    margin-top: 0;
-    padding: 0px;
-    text-align: left;
-    width: auto;
+  #mi{
+    width: auto;,
+    position:relative;
   }
-  #{
-    display: block;
-    background-position: center;
-    text-align: center;
-    margin: auto;
-    width: 500px;
-    font-size: 25px;
-    height: 20px;
-    padding: 5px;
+  #mayor{
+    margin: 2;
+    padding: 2px;
+    text-align: left;
+    width: 98%;
+  }
+  #id{  
+    width: auto; 
+    padding: 0px;
   }
   #fecha{
-    display: block;
-    margin: auto;
-    background-position: center;
-    width: 509px;
-    margin-top: 5px;
-    font-size: 20px;
-    padding: px;
+    width: auto;        
   }
-  #aporte{
-    display: block;
-    margin: auto;
-    background-position: center;
-    width: 508px;
-    font-size: 20px;
-    margin-top: 5px;
+  #aporte{  
+    width: auto;  
   }
-  #conformidad{
-    margin-left: 31px;
-    padding: 12px;
+  #conformidad{ 
+    margin-left: 0px;
+    padding: 10px;
     margin-top: 5px;
-    width: 400px;
-    background-position: center;
+    width: auto;  
   }
   #aceptar{
     background-color: white;
     padding: 7px;
     text-decoration-line: none;
     background-position: center;
-    margin-left: 468px;
+    margin-left: 2px;
   }
   #Datos{
     background-color:white ;
-    height: 450px;
+    height: 300px;
     border-style: groove;
   }
   #borrar{
@@ -378,8 +392,19 @@ margin: auto;
     border-style: double;
     border-color: black;
     float: right;
-    margin-right: -100px;
+    margin-right: 5px;
   }
+  #canva{
+    width: auto;
+    border:3px solid #ccc;
+    background-color: aqua;
+    display: block;
+    margin-top: 12px;
+    margin-left: auto;
+    margin-right: auto;
+   
+    
+}
 
 
 }  
