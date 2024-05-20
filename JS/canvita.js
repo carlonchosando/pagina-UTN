@@ -5,31 +5,17 @@ var xposicion = 20;
 var yposicion = 0;
 var velocidad = 2.69;
 
-
-function animacion_con_canvas(){ 
-  svgPan.src ="./imagenes/pancito.svg";
-  svgPan.addEventListener('load', animar_imagen, false);
+function animacion_con_canvas() {
+  svgPan.src = "./imagenes/pancito.svg";
+  svgPan.addEventListener("load", animar_imagen, false);
   function animar_imagen() {
-  var animacion = requestAnimationFrame(animar_imagen);
-  contexto.fillStyle = "#ffffff";
-  contexto.fillRect(0, 0, 450, 150); 
-  contexto.drawImage(svgPan, xposicion, yposicion);    
-  if(xposicion > 400)
-    xposicion = -50;
+    var animacion = requestAnimationFrame(animar_imagen);
+    contexto.fillStyle = "#ffffff";
+    contexto.fillRect(0, 0, 450, 150);
+    contexto.drawImage(svgPan, xposicion, yposicion);
+    if (xposicion > 400) xposicion = -50;
     yposicion = 10;
-    
     xposicion = xposicion + velocidad;
-    
-   
-    
-    
- }
- 
-
- 
-
-
-
+  }
 }
-
 animacion_con_canvas();
